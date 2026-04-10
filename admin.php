@@ -68,5 +68,7 @@ class Admin extends CI_Controller {
 		$a['page']	= "d_amain";
 		$this->load->view('admin/index', $a);
 	}
+
+}	
 	
 	
