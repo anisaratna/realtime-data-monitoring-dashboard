@@ -12,11 +12,6 @@ This web-based dashboard was developed during my internship at the **Information
 * **Data Visualization:** Highcharts JS
 * **Environment:** Localhost (XAMPP), Production Server (PHP 8)
 
-## File Description
-* **Models:** m_kelolakegiatan.php
-* **Views:** d_amain.php
-* **Controllers:** admin.php
-
 ## Key Features & Technical Highlights
 1. **Server-Side SQL Aggregation:** Instead of loading raw data into PHP arrays which consumes high memory, I implemented conditional SQL aggregation (`SUM(CASE WHEN...)`) directly in the database. This calculates data statuses (Done, Pending, Empty) in a single query, ensuring high rendering speed.
 2. **Interactive Data Visualization:** 
@@ -30,3 +25,8 @@ This web-based dashboard was developed during my internship at the **Information
 
 ## Impact
 The implementation of this dashboard transformed the management's evaluation process. By providing visual, color-coded indicators, the leadership team could instantly identify which departments were lagging behind, accelerating the data validation and follow-up process significantly.
+
+## Repository Structure
+* **Models:** m_kelolakegiatan.php
+* **Views:** d_amain.php
+* **Controllers:** admin.php
